@@ -88,9 +88,11 @@ $('.owl-carousel').owlCarousel({
 });
 // cv download work
 
+
+
 function downloadCV() {
     var link = document.createElement('a');
-    link.setAttribute('href', 'daniyalJavadia.pdf');
+    link.setAttribute('href', 'DaniyalJavadia.pdf');
     link.setAttribute('download', 'DaniyalJavadia.pdf');
     document.body.appendChild(link);
     link.click();
